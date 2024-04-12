@@ -161,7 +161,7 @@ const modules = {
 
 /** @type {import('@medusajs/medusa').ConfigModule["projectConfig"]} */
 const projectConfig = {
-  database_extra: { ssl: { rejectUnauthorized: false } },
+  database_extra: { ssl: { rejectUnauthorized: true } },
   jwtSecret: process.env.JWT_SECRET,
   cookieSecret: process.env.COOKIE_SECRET,
   store_cors: STORE_CORS,
