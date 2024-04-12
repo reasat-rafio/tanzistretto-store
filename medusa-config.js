@@ -3,7 +3,7 @@ const dotenv = require("dotenv");
 let ENV_FILE_NAME = "";
 switch (process.env.NODE_ENV) {
   case "production":
-    ENV_FILE_NAME = ".env.production";
+    ENV_FILE_NAME = ".env";
     break;
   case "staging":
     ENV_FILE_NAME = ".env.staging";
@@ -56,7 +56,7 @@ const plugins = [
     resolve: "@medusajs/admin",
     /** @type {import('@medusajs/admin').PluginOptions} */
     options: {
-      autoRebuild: true,
+      // autoRebuild: true,
       develop: {
         open: process.env.OPEN_BROWSER !== "false",
       },
@@ -97,17 +97,6 @@ const plugins = [
 
           // authPath: "/store/auth/google",
 
-          // verifyCallback: (
-          //   container,
-          //   req,
-          //   accessToken,
-          //   refreshToken,
-          //   profile,
-          //   strict
-          // ) => {
-          //   console.log("accessToken", accessToken);
-          //   accessToken && cookies().set("_medusa_jwt", accessToken);
-          // },
         },
       },
       {
@@ -169,8 +158,10 @@ const modules = {
   },
 };
 
+
 /** @type {import('@medusajs/medusa').ConfigModule["projectConfig"]} */
 const projectConfig = {
+  database_extra: { ssl: { rejectUnauthorized: false } },
   jwtSecret: process.env.JWT_SECRET,
   cookieSecret: process.env.COOKIE_SECRET,
   store_cors: STORE_CORS,
