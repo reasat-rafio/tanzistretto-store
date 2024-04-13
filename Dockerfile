@@ -45,7 +45,6 @@ FROM base as runner
 # Setting NODE_ENV=production requires secure cookie (https only access)
 ENV NODE_ENV production
 ENV PORT 9000
-ENV PORT 7001
 ENV HOST 0.0.0.0
 
 # Copy config file
