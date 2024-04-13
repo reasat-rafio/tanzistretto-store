@@ -51,10 +51,10 @@ jobs:
       - run: yarn install --frozen-lockfile
 
       # Build the project
-      - run: yarn build --if-present
+      - run: yarn build
 
       # Run tests if they are available
-      - run: yarn test --if-present
+      - run: yarn test
 
       # Log into the specified Docker registry
       - name: Log in to the Container registry
