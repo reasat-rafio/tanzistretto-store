@@ -1,3 +1,17 @@
+# name: build + publish
+
+# on:
+#   push:
+#     branches:
+#       - main
+#   workflow_dispatch:
+
+# # build_and_push:
+# #     name: Build image & push
+# #     runs-on: ubuntu-latest
+# #     permissions:
+# #       contents: read
+# #       packages: write
 # GitHub Actions workflow for deploying a Docker image to CapRover
 name: Deploy to caprover instance.
 
@@ -67,10 +81,19 @@ jobs:
           labels: ${{ steps.meta.outputs.labels }}
 
       # Deploy the Docker image to the CapRover instance
-      - name: Deploy to CapRover
+      - name: Deploy Backend to CapRover
         uses: caprover/deploy-from-github@d76580d79952f6841c453bb3ed37ef452b19752c
         with:
           server: ${{ secrets.CAPROVER_SERVER }} # CapRover server URL
-          app: ${{ secrets.BACKEND_APP_TOKEN }} # CapRover app name
-          token: "${{ secrets.APP_TOKEN }}" # CapRover app token
+          app: ${{ secrets.APP_NAME }} # CapRover app name
+          token: "${{ secrets.BACKEND_APP_TOKEN }}" # CapRover app token
+          image: ${{ steps.meta.outputs.tags }} # Docker image to deploy
+
+      # Deploy the Docker image to the CapRover instance
+      - name: Deploy Admin to CapRover
+        uses: caprover/deploy-from-github@d76580d79952f6841c453bb3ed37ef452b19752c
+        with:
+          server: ${{ secrets.CAPROVER_SERVER }} # CapRover server URL
+          app: ${{ secrets.APP_NAME }} # CapRover app name
+          token: "${{ secrets.ADMIN_APP_TOKEN }}" # CapRover app token
           image: ${{ steps.meta.outputs.tags }} # Docker image to deploy
