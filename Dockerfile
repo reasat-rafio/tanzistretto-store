@@ -57,5 +57,5 @@ COPY --from=builder /usr/src/app/build ./build
 COPY --from=builder /usr/src/app/dist ./dist
 
 # Run application
-EXPOSE 9000
+EXPOSE 9000 7000
 CMD ["npm", "run", "start"]
