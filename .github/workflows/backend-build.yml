@@ -71,7 +71,7 @@ jobs:
         uses: caprover/deploy-from-github@d76580d79952f6841c453bb3ed37ef452b19752c
         with:
           server: ${{ secrets.CAPROVER_SERVER }} # CapRover server URL
-          app: ${{ secrets.APP_NAME }} # CapRover app name
+          app: ${{ secrets.BACKEND_APP_NAME }} # CapRover app name
           token: "${{ secrets.BACKEND_APP_TOKEN }}" # CapRover app token
           image: ${{ steps.meta.outputs.tags }} # Docker image to deploy
 
