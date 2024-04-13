@@ -96,7 +96,6 @@ const plugins = [
           expiresIn: 24 * 60 * 60 * 1000,
 
           // authPath: "/store/auth/google",
-
         },
       },
       {
@@ -158,10 +157,9 @@ const modules = {
   },
 };
 
-
 /** @type {import('@medusajs/medusa').ConfigModule["projectConfig"]} */
 const projectConfig = {
-  database_extra: { ssl: { rejectUnauthorized: true } },
+  database_extra: {},
   jwtSecret: process.env.JWT_SECRET,
   cookieSecret: process.env.COOKIE_SECRET,
   store_cors: STORE_CORS,
