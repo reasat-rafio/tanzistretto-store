@@ -16,7 +16,7 @@
     "clean": "cross-env ./node_modules/.bin/rimraf dist",
     "build": "cross-env npm run clean && npm run build:server && npm run build:admin",
     "build:server": "cross-env npm run clean && tsc -p tsconfig.server.json",
-    "build:admin": "cross-env medusa-admin build",
+    "build:admin": "cross-env medusa-admin build --deployment",
     "watch": "cross-env tsc --watch",
     "test": "cross-env jest",
     "seed": "cross-env medusa seed -f ./data/seed.json",
@@ -43,6 +43,7 @@
     "medusa-payment-manual": "latest",
     "medusa-payment-stripe": "latest",
     "medusa-plugin-auth": "^1.10.4",
+    "medusa-plugin-ses": "^2.2.3",
     "medusa-plugin-variant-images": "^1.0.5",
     "prism-react-renderer": "^2.0.4",
     "typeorm": "^0.3.16"
