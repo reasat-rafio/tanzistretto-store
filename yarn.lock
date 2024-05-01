@@ -2599,17 +2599,17 @@
   dependencies:
     "@lukeed/csprng" "^1.1.0"
 
-"@medusajs/admin-ui@^2.1.13":
-  version "2.1.13"
-  resolved "https://registry.npmjs.org/@medusajs/admin-ui/-/admin-ui-2.1.13.tgz"
-  integrity sha512-rygwx/UZdKTHyYZNiloa401kyswOGu57lGqCPV4E7SpC7uT/e5Aq9Q+zxeGlaBAH5MR34etKIjwPnvdArgEIDg==
+"@medusajs/admin-ui@^2.1.14":
+  version "2.1.14"
+  resolved "https://registry.yarnpkg.com/@medusajs/admin-ui/-/admin-ui-2.1.14.tgz#ba0db8bb8c5ecc7c994a1cdac1396627bae9794c"
+  integrity sha512-yu0Rfo9yq3wbf5ExiwiyL6DXgZvixyKqLErw6G/K0nho94ku3OmnVgzz1NtZusTzfZTxehQJHyeU4H0FsD8jIw==
   dependencies:
     "@babel/parser" "7.22.5"
     "@babel/traverse" "7.22.5"
     "@hookform/error-message" "^2.0.1"
     "@hookform/resolvers" "^3.3.1"
     "@medusajs/icons" "^1.1.0"
-    "@medusajs/ui" "^2.4.3"
+    "@medusajs/ui" "^3.0.0"
     "@medusajs/ui-preset" "^1.1.3"
     "@pmmmwh/react-refresh-webpack-plugin" "^0.5.10"
     "@radix-ui/react-accordion" "^1.0.1"
@@ -2624,6 +2624,7 @@
     "@radix-ui/react-switch" "^1.0.1"
     "@radix-ui/react-tooltip" "^1.0.3"
     "@segment/analytics-next" "^1.51.1"
+    "@stdlib/number-float64-base-normalize" "0.0.8"
     "@svgr/webpack" "^8.0.1"
     "@swc/core" "^1.3.61"
     "@tailwindcss/forms" "^0.5.3"
@@ -2642,7 +2643,7 @@
     i18next-browser-languagedetector "^7.0.1"
     i18next-http-backend "^2.2.1"
     md5 "^2.3.0"
-    medusa-react "^9.0.13"
+    medusa-react "^9.0.17"
     mini-css-extract-plugin "^2.7.6"
     moment "^2.29.4"
     path-browserify "^1.0.1"
@@ -2688,11 +2689,11 @@
     zod "^3.22.2"
 
 "@medusajs/admin@latest":
-  version "7.1.12"
-  resolved "https://registry.npmjs.org/@medusajs/admin/-/admin-7.1.12.tgz"
-  integrity sha512-TqA+lfKjwJo0UOHu1kM3gnUIu9eDaIX8IDz0dl3qHJHSvnhV+aop5BQxgOdkZO/VuLnRlVebr+7fDsmEBvj89A==
+  version "7.1.13"
+  resolved "https://registry.yarnpkg.com/@medusajs/admin/-/admin-7.1.13.tgz#ef2c0a58ad45b6010cd9e575c6241b5a2412cf0a"
+  integrity sha512-rKUe5jV0BKB+WYwKauVyuWsea8+n9H8a+CJnRiwK54L47GFM/Umxaz7eU2pVq5HDWTekyHI/xhrAsD4p8yekXA==
   dependencies:
-    "@medusajs/admin-ui" "^2.1.13"
+    "@medusajs/admin-ui" "^2.1.14"
     "@rollup/plugin-alias" "5.0.0"
     "@rollup/plugin-commonjs" "24.1.0"
     "@rollup/plugin-json" "6.0.0"
@@ -2705,7 +2706,7 @@
     express "4.18.2"
     fs-extra "11.1.0"
     lodash "^4.17.21"
-    medusa-core-utils "1.2.1"
+    medusa-core-utils "1.2.2"
     rollup "3.20.7"
     rollup-plugin-esbuild "5.0.0"
     ts-dedent "^2.2.0"
@@ -2718,23 +2719,23 @@
     "@medusajs/modules-sdk" "^1.12.3"
 
 "@medusajs/cache-redis@latest":
-  version "1.9.0"
-  resolved "https://registry.npmjs.org/@medusajs/cache-redis/-/cache-redis-1.9.0.tgz"
-  integrity sha512-d2lpDjM6dFN2U+zeEEA/9PFt4Xln2G3FPnZs2KGrB3QJJVC6OIOX4A0d97KZfc4EX+C0QltwkVhmSniJb5I0Ww==
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/@medusajs/cache-redis/-/cache-redis-1.9.1.tgz#860b2939326f6d05f5881e992e351fb746c6b823"
+  integrity sha512-upu/EJxxMPI+T8y9TcSjhZ3ioErJwNw792qtjwLj3ctp1X9a6ZdNXHHr0hirqYJ2T/KRReW+lK/uzozFOhkAaQ==
   dependencies:
-    "@medusajs/modules-sdk" "^1.12.3"
+    "@medusajs/modules-sdk" "^1.12.11"
     awilix "^8.0.0"
     ioredis "^5.3.1"
 
-"@medusajs/core-flows@^0.0.8":
-  version "0.0.8"
-  resolved "https://registry.npmjs.org/@medusajs/core-flows/-/core-flows-0.0.8.tgz"
-  integrity sha512-pzSMkXNGciIIpL7YK2h5Qrwubq0pm1BJL/DxsCr5ZZ3ateF34Ko65L/WI5UEr4T6py+1NF5v5z15nKKwYO2FdA==
+"@medusajs/core-flows@^0.0.9":
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/@medusajs/core-flows/-/core-flows-0.0.9.tgz#ea2601f7392faa77e765cc51554f856cf108d6f3"
+  integrity sha512-RJ2J6LQN58xnNfCyK8gZMGXCdi/CE6e9vvKI6jx1GJYivM/vEN/veySl4BtoAEpYbi7LnJjZWb2OAp4+x0PRFg==
   dependencies:
-    "@medusajs/modules-sdk" "^1.12.10"
-    "@medusajs/orchestration" "^0.5.6"
-    "@medusajs/utils" "^1.11.8"
-    "@medusajs/workflows-sdk" "^0.1.5"
+    "@medusajs/modules-sdk" "^1.12.11"
+    "@medusajs/orchestration" "^0.5.7"
+    "@medusajs/utils" "^1.11.9"
+    "@medusajs/workflows-sdk" "^0.1.6"
     awilix "^8.0.1"
     ulid "^2.3.0"
 
@@ -2748,12 +2749,12 @@
     ulid "^2.3.0"
 
 "@medusajs/event-bus-redis@latest":
-  version "1.8.12"
-  resolved "https://registry.npmjs.org/@medusajs/event-bus-redis/-/event-bus-redis-1.8.12.tgz"
-  integrity sha512-EVHa+DpTkUbQRZpJlUHzAsjLTrVgpDkexUmjCrVIR7aaLOGW0bxvFpOZMbbNAekYqG3bAEsdCuw+9vuoIdhC8g==
+  version "1.8.13"
+  resolved "https://registry.yarnpkg.com/@medusajs/event-bus-redis/-/event-bus-redis-1.8.13.tgz#c9bd8cd06785f20dbca792f7b3055649718417f2"
+  integrity sha512-6xiiioelU3K6Pb30d8NyN3eFUObuus4CywcZ6dwdNkv5CLhu6cIRZVEZHeVY6Zv0LjF6nk7wjET7MhBnQEsfnA==
   dependencies:
-    "@medusajs/modules-sdk" "^1.12.10"
-    "@medusajs/utils" "^1.11.8"
+    "@medusajs/modules-sdk" "^1.12.11"
+    "@medusajs/utils" "^1.11.9"
     awilix "^8.0.0"
     bullmq "^5.4.2"
     ioredis "^5.2.5"
@@ -2768,14 +2769,14 @@
   resolved "https://registry.npmjs.org/@medusajs/icons/-/icons-1.2.1.tgz"
   integrity sha512-jlV2uWn+kHhYqfNUA0m2xx7Gck/+YKYhLruaQhTSmVifjFk3SUNzC3bFMPoYvLvCKg5vbxq7SCur5hDgrKkW+w==
 
-"@medusajs/link-modules@^0.2.10":
-  version "0.2.10"
-  resolved "https://registry.npmjs.org/@medusajs/link-modules/-/link-modules-0.2.10.tgz"
-  integrity sha512-Yf3YSfiNaEmzDS8O06fRAFkckk+dBWGZ9Dy5G5tItqHkcjJgg2FgasOg+hTap5kiMFpiUYLxKFsynPQxlzY7aA==
+"@medusajs/link-modules@^0.2.11":
+  version "0.2.11"
+  resolved "https://registry.yarnpkg.com/@medusajs/link-modules/-/link-modules-0.2.11.tgz#1fa2b1f17ae3cf586a7b84b0bf7a7b771f17c117"
+  integrity sha512-NTTiBOgr7w0SYMnyHPeE1btWmbxe39H+uB8fp1cCeRqELf8tIZ+E5GqJhHGLSCqAhOmKq1kXxNdO9Z81VyOHAQ==
   dependencies:
-    "@medusajs/modules-sdk" "^1.12.10"
-    "@medusajs/types" "^1.11.15"
-    "@medusajs/utils" "^1.11.8"
+    "@medusajs/modules-sdk" "^1.12.11"
+    "@medusajs/types" "^1.11.16"
+    "@medusajs/utils" "^1.11.9"
     "@mikro-orm/core" "5.9.7"
     "@mikro-orm/postgresql" "5.9.7"
     awilix "^8.0.0"
@@ -2826,17 +2827,17 @@
     uuid "^9.0.0"
 
 "@medusajs/medusa@latest":
-  version "1.20.4"
-  resolved "https://registry.npmjs.org/@medusajs/medusa/-/medusa-1.20.4.tgz"
-  integrity sha512-c54jufkdJnySsrw4jsqDMAKgLf3wvhG9T3FxpiAEPtnr293EVmlVjX+5gB3cEshrXCKE2cFQN9yyEAkVGQxBNw==
+  version "1.20.5"
+  resolved "https://registry.yarnpkg.com/@medusajs/medusa/-/medusa-1.20.5.tgz#d5b7aa717a42df1b9a0ad20ce3f17ee1c5dffc04"
+  integrity sha512-ZFI7yPdU3stW841tqSQqKCBQe9x3Td3fTPxaXJTRQBYiXdVgtR4JQCK13FjVamhMgWmu2cphnQ4zN3E5U0sOcg==
   dependencies:
-    "@medusajs/core-flows" "^0.0.8"
-    "@medusajs/link-modules" "^0.2.10"
+    "@medusajs/core-flows" "^0.0.9"
+    "@medusajs/link-modules" "^0.2.11"
     "@medusajs/medusa-cli" "^1.3.22"
-    "@medusajs/modules-sdk" "^1.12.10"
-    "@medusajs/orchestration" "^0.5.6"
-    "@medusajs/utils" "^1.11.8"
-    "@medusajs/workflows-sdk" "^0.1.5"
+    "@medusajs/modules-sdk" "^1.12.11"
+    "@medusajs/orchestration" "^0.5.7"
+    "@medusajs/utils" "^1.11.9"
+    "@medusajs/workflows-sdk" "^0.1.6"
     awilix "^8.0.0"
     body-parser "^1.19.0"
     boxen "^5.0.1"
@@ -2860,9 +2861,8 @@
     iso8601-duration "^1.3.0"
     jsonwebtoken "^9.0.0"
     lodash "^4.17.21"
-    medusa-core-utils "^1.2.1"
+    medusa-core-utils "^1.2.2"
     medusa-telemetry "^0.0.17"
-    medusa-test-utils "^1.1.43"
     morgan "^1.9.1"
     multer "^1.4.5-lts.1"
     node-schedule "^2.1.1"
@@ -2881,37 +2881,38 @@
     ulid "^2.3.0"
     uuid "^9.0.0"
     winston "^3.8.2"
+    zod "^3.22.4"
 
-"@medusajs/modules-sdk@^1.12.10", "@medusajs/modules-sdk@^1.12.3", "@medusajs/modules-sdk@^1.12.8":
-  version "1.12.10"
-  resolved "https://registry.npmjs.org/@medusajs/modules-sdk/-/modules-sdk-1.12.10.tgz"
-  integrity sha512-qYybipV1RM7MmBCXCkNWOs8pIYDq33boQjKr0VzUT4BXH/LMvIRRJDvTCAjvoCnkpjI6EK45sKjg1jjiv+h6tA==
+"@medusajs/modules-sdk@^1.12.11", "@medusajs/modules-sdk@^1.12.3", "@medusajs/modules-sdk@^1.12.8":
+  version "1.12.11"
+  resolved "https://registry.yarnpkg.com/@medusajs/modules-sdk/-/modules-sdk-1.12.11.tgz#9de7aae05fc7565f5131f80af4c3b9c301570854"
+  integrity sha512-JDZ0BP1CD69cAqYQb/PHC2pZKhhzeM6krttt6/8pi9/h7HvpUvkMQ2gaL1ze8NTu5K66BjRu9MpRrzBFQzOrdg==
   dependencies:
     "@graphql-tools/merge" "^9.0.0"
     "@graphql-tools/schema" "^10.0.0"
-    "@medusajs/orchestration" "^0.5.6"
-    "@medusajs/types" "^1.11.15"
-    "@medusajs/utils" "^1.11.8"
+    "@medusajs/orchestration" "^0.5.7"
+    "@medusajs/types" "^1.11.16"
+    "@medusajs/utils" "^1.11.9"
     awilix "^8.0.0"
     graphql "^16.6.0"
     knex "2.4.2"
     pg "^8.11.2"
     resolve-cwd "^3.0.0"
 
-"@medusajs/orchestration@^0.5.6":
-  version "0.5.6"
-  resolved "https://registry.npmjs.org/@medusajs/orchestration/-/orchestration-0.5.6.tgz"
-  integrity sha512-dRgu+X1YfcUDEwyx8rdzclDBPeCmTsDCbgZ9n9oiaGom2MEJPejkI2/gB84CEVYb8Cl5ckGyZD5dqckYYX0PAg==
+"@medusajs/orchestration@^0.5.7":
+  version "0.5.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/orchestration/-/orchestration-0.5.7.tgz#2cf29c4ca71a59bed64765afdb7453607652aa45"
+  integrity sha512-PlP93BKinb4WAUaMLqaxceNQ1QE3K7fXLRpKx2AvBb4b6m/g5Iz3A+K50NtC5CrSqr4PVH0UIV6AGCrdFUS8WQ==
   dependencies:
-    "@medusajs/types" "^1.11.15"
-    "@medusajs/utils" "^1.11.8"
+    "@medusajs/types" "^1.11.16"
+    "@medusajs/utils" "^1.11.9"
     awilix "^8.0.0"
     graphql "^16.6.0"
 
-"@medusajs/types@^1.11.15":
-  version "1.11.15"
-  resolved "https://registry.npmjs.org/@medusajs/types/-/types-1.11.15.tgz"
-  integrity sha512-1zoM+MSbSxuDoyJ3xUVlwh5DgB9DgZH4yu/WUrymbZwVNka7/uPIraRG65sVO6fJu+/y8NpEe231Y7ZEyFz19A==
+"@medusajs/types@^1.11.16":
+  version "1.11.16"
+  resolved "https://registry.yarnpkg.com/@medusajs/types/-/types-1.11.16.tgz#27de07a7983ff6a551e03c3546aa11e40ca7cde3"
+  integrity sha512-utgD9FdDH8u/m7d9Zj2IUBIhLHXBhkBZ9IvILvdaus6BfEk+grkk1qBsAmAdgQTfOM1DGmf8vWChCNTR++uF9Q==
 
 "@medusajs/ui-preset@^1.1.3":
   version "1.1.3"
@@ -2921,10 +2922,10 @@
     "@tailwindcss/forms" "^0.5.3"
     tailwindcss-animate "^1.0.6"
 
-"@medusajs/ui@^2.4.3":
-  version "2.4.3"
-  resolved "https://registry.npmjs.org/@medusajs/ui/-/ui-2.4.3.tgz"
-  integrity sha512-7HHnWmfq6K0YmqCgGGqeZThYdAI9bi9/Y54J28W7Iy9dhCJICqeNoeUN/Xu4aE+VlfCyuKysjcU4jcpy8o4CUA==
+"@medusajs/ui@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@medusajs/ui/-/ui-3.0.0.tgz#f4378bd47a864f775c9f58d18a2c95f2d53dffba"
+  integrity sha512-27A9XQsMFVInvVZQHc0s7WBiVinwfbhHwgqhX80UKQMAvwooX4npDq9Vn2m5uR28J3q2oziToVBWiSAKo5pw1w==
   dependencies:
     "@medusajs/icons" "^1.2.1"
     "@radix-ui/react-accordion" "^1.1.2"
@@ -2942,7 +2943,6 @@
     "@radix-ui/react-slot" "^1.0.2"
     "@radix-ui/react-switch" "^1.0.3"
     "@radix-ui/react-tabs" "^1.0.4"
-    "@radix-ui/react-toast" "^1.1.4"
     "@radix-ui/react-tooltip" "^1.0.6"
     "@react-aria/datepicker" "^3.5.0"
     "@react-stately/datepicker" "^3.5.0"
@@ -2954,14 +2954,15 @@
     prismjs "^1.29.0"
     react-currency-input-field "^3.6.11"
     react-day-picker "^8.8.0"
+    sonner "^1.4.41"
     tailwind-merge "^2.2.1"
 
-"@medusajs/utils@^1.11.2", "@medusajs/utils@^1.11.5", "@medusajs/utils@^1.11.8":
-  version "1.11.8"
-  resolved "https://registry.npmjs.org/@medusajs/utils/-/utils-1.11.8.tgz"
-  integrity sha512-2H0MfaHvthU/+LIdO2uMorjQOKmaAQc9+MEaK8Ysd6zw7cI7V33KrzA/HV6BDFCS62lJ//S4kMGgnL14yVeEKA==
+"@medusajs/utils@^1.11.2", "@medusajs/utils@^1.11.5", "@medusajs/utils@^1.11.8", "@medusajs/utils@^1.11.9":
+  version "1.11.9"
+  resolved "https://registry.yarnpkg.com/@medusajs/utils/-/utils-1.11.9.tgz#f6862f534b66274589ab2775fff17b92838d7d92"
+  integrity sha512-L9tKoan2aiCO+o3gJMvZyCMLX9Xj778V1O8dOpiEUTGMvOLC8pCGW+CgKpBf7Zq6qa2GKz1Xj3DA9pCluJIETA==
   dependencies:
-    "@medusajs/types" "^1.11.15"
+    "@medusajs/types" "^1.11.16"
     "@mikro-orm/core" "5.9.7"
     "@mikro-orm/migrations" "5.9.7"
     "@mikro-orm/postgresql" "5.9.7"
@@ -2970,14 +2971,14 @@
     knex "2.4.2"
     ulid "^2.3.0"
 
-"@medusajs/workflows-sdk@^0.1.5":
-  version "0.1.5"
-  resolved "https://registry.npmjs.org/@medusajs/workflows-sdk/-/workflows-sdk-0.1.5.tgz"
-  integrity sha512-mO9A92uCLt1TzgqqpTx0TlTChEWU2PrM8uvLLm/QU0O//MiL3sqeGroW0ESOEVKKtrvR6T/6EkKaIQzQP0f/LQ==
+"@medusajs/workflows-sdk@^0.1.6":
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/@medusajs/workflows-sdk/-/workflows-sdk-0.1.6.tgz#4f2709dcbac65bbefb02e21cef35246d7f3408b7"
+  integrity sha512-4P0xlxSEO0RHedf34kksIO+NmJ1A93obYjtmHjXdrp0vQnRdBfTi8t7y74lbFVFexnXndRsRc7V4VrvVdlqIHA==
   dependencies:
-    "@medusajs/modules-sdk" "^1.12.10"
-    "@medusajs/orchestration" "^0.5.6"
-    "@medusajs/utils" "^1.11.8"
+    "@medusajs/modules-sdk" "^1.12.11"
+    "@medusajs/orchestration" "^0.5.7"
+    "@medusajs/utils" "^1.11.9"
     awilix "^8.0.1"
     ulid "^2.3.0"
 
@@ -3683,25 +3684,6 @@
     "@radix-ui/react-primitive" "1.0.3"
     "@radix-ui/react-roving-focus" "1.0.4"
     "@radix-ui/react-use-controllable-state" "1.0.1"
-
-"@radix-ui/react-toast@^1.1.4":
-  version "1.1.5"
-  resolved "https://registry.npmjs.org/@radix-ui/react-toast/-/react-toast-1.1.5.tgz"
-  integrity sha512-fRLn227WHIBRSzuRzGJ8W+5YALxofH23y0MlPLddaIpLpCDqdE0NZlS2NRQDRiptfxDeeCjgFIpexB1/zkxDlw==
-  dependencies:
-    "@babel/runtime" "^7.13.10"
-    "@radix-ui/primitive" "1.0.1"
-    "@radix-ui/react-collection" "1.0.3"
-    "@radix-ui/react-compose-refs" "1.0.1"
-    "@radix-ui/react-context" "1.0.1"
-    "@radix-ui/react-dismissable-layer" "1.0.5"
-    "@radix-ui/react-portal" "1.0.4"
-    "@radix-ui/react-presence" "1.0.1"
-    "@radix-ui/react-primitive" "1.0.3"
-    "@radix-ui/react-use-callback-ref" "1.0.1"
-    "@radix-ui/react-use-controllable-state" "1.0.1"
-    "@radix-ui/react-use-layout-effect" "1.0.1"
-    "@radix-ui/react-visually-hidden" "1.0.3"
 
 "@radix-ui/react-tooltip@^1.0.3", "@radix-ui/react-tooltip@^1.0.6":
   version "1.0.7"
@@ -8023,12 +8005,12 @@ dotenv@16.0.3:
   resolved "https://registry.npmjs.org/dotenv/-/dotenv-16.0.3.tgz"
   integrity sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==
 
-dotenv@16.3.1, dotenv@^16.0.3:
+dotenv@16.3.1:
   version "16.3.1"
   resolved "https://registry.npmjs.org/dotenv/-/dotenv-16.3.1.tgz"
   integrity sha512-IPzF4w4/Rd94bA9imS68tZBaYyBWSCE47V1RGuMrB94iyTOIEwRmVL2x/4An+6mETpLrKJ5hQkB8W4kFAadeIQ==
 
-dotenv@^16.4.5:
+dotenv@^16.0.3, dotenv@^16.4.5:
   version "16.4.5"
   resolved "https://registry.npmjs.org/dotenv/-/dotenv-16.4.5.tgz"
   integrity sha512-ZmdL2rui+eB2YwhsWzjInR8LldtZHGDoQ1ugH85ppHKwpUHL7j7rN0Ti9NCnGiQbhaZ11FpR+7ao1dNsmduNUg==
@@ -10985,10 +10967,12 @@ media-typer@0.3.0:
   resolved "https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz"
   integrity sha512-dq+qelQ9akHpcOl/gUVRTxVIOkAJ1wR3QAvb4RsVjS8oVoFjDGTc679wJYmUmknUF5HwMLOgb5O+a3KxfWapPQ==
 
-medusa-core-utils@1.2.1, medusa-core-utils@^1.1.30, medusa-core-utils@^1.2.0, medusa-core-utils@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.npmjs.org/medusa-core-utils/-/medusa-core-utils-1.2.1.tgz"
-  integrity sha512-PBAm+5ODVcS9HREz7SH9LtiDY6/Fkwax+tqB5cTjujOiWSPuuj13ImH8eb9p6aVoOEvFtpDP4HL8TIijpJ6juw==
+medusa-core-utils@1.2.2, medusa-core-utils@^1.1.30, medusa-core-utils@^1.2.0, medusa-core-utils@^1.2.1, medusa-core-utils@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/medusa-core-utils/-/medusa-core-utils-1.2.2.tgz#7f1cc6980d13a14d69ed69122588b73c6a3ca097"
+  integrity sha512-2M7bzZeEPovDZigofn5ihGhxUP4XKiovGxvEEYpfmoQAeg+kL2Vd42lIJyKRsLOKjKXqz99mmRpyUT+6gSKCCA==
+  dependencies:
+    awilix "^8.0.0"
 
 medusa-file-cloudinary@^1.0.2:
   version "1.0.2"
@@ -11068,10 +11052,10 @@ medusa-plugin-variant-images@^1.0.5:
     medusa-core-utils "^1.2.0"
     typeorm "^0.3.17"
 
-medusa-react@^9.0.13:
-  version "9.0.16"
-  resolved "https://registry.npmjs.org/medusa-react/-/medusa-react-9.0.16.tgz"
-  integrity sha512-pEOk30ZT/Eg1WyKVpVUNcqkF2sL5xGHag8uaZu1WW8mZHs+OvlpQjoAbX+wuc5hGfDdE+jERpLZt2RvfWPaivQ==
+medusa-react@^9.0.17:
+  version "9.0.17"
+  resolved "https://registry.yarnpkg.com/medusa-react/-/medusa-react-9.0.17.tgz#b66b1151d6e5fce6c362e1a2a9514505d6d652e7"
+  integrity sha512-oBDHm3xE0EcKQPflpdQyxJciu0LwmOM1Z+Z2Lw8MFsaNIpSYE+YKxBICcXRh+6C/YElXPsUebDWzrNHN8q81kQ==
   dependencies:
     "@medusajs/medusa-js" "*"
 
@@ -11090,18 +11074,6 @@ medusa-telemetry@^0.0.17:
     is-docker "^2.2.1"
     remove-trailing-slash "^0.1.1"
     uuid "^8.3.2"
-
-medusa-test-utils@^1.1.43:
-  version "1.1.43"
-  resolved "https://registry.npmjs.org/medusa-test-utils/-/medusa-test-utils-1.1.43.tgz"
-  integrity sha512-59kZgat/MBNZRH3xT4BtfUhFSrHxPqam2eTgRm8LUXvx9p7TY/j+/iskoCDpwb+iiPEMOBG3vbaCubq8827+lw==
-  dependencies:
-    "@medusajs/modules-sdk" "^1.12.10"
-    "@medusajs/utils" "^1.11.8"
-    "@mikro-orm/migrations" "5.9.7"
-    "@mikro-orm/postgresql" "5.9.7"
-    medusa-core-utils "^1.2.1"
-    randomatic "^3.1.1"
 
 memfs@^3.1.2, memfs@^3.4.3:
   version "3.6.0"
@@ -13635,6 +13607,11 @@ sockjs@^0.3.24:
     uuid "^8.3.2"
     websocket-driver "^0.7.4"
 
+sonner@^1.4.41:
+  version "1.4.41"
+  resolved "https://registry.yarnpkg.com/sonner/-/sonner-1.4.41.tgz#ff085ae4f4244713daf294959beaa3e90f842d2c"
+  integrity sha512-uG511ggnnsw6gcn/X+YKkWPo5ep9il9wYi3QJxHsYe7yTZ4+cOd1wuodOUmOpFuXL+/RE3R04LczdNCDygTDgQ==
+
 sorted-array-functions@^1.3.0:
   version "1.3.0"
   resolved "https://registry.npmjs.org/sorted-array-functions/-/sorted-array-functions-1.3.0.tgz"
@@ -15021,7 +14998,7 @@ z-schema@~5.0.2:
   optionalDependencies:
     commander "^10.0.0"
 
-zod@^3.21.4, zod@^3.22.2:
-  version "3.22.4"
-  resolved "https://registry.npmjs.org/zod/-/zod-3.22.4.tgz"
-  integrity sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==
+zod@^3.21.4, zod@^3.22.2, zod@^3.22.4:
+  version "3.23.5"
+  resolved "https://registry.yarnpkg.com/zod/-/zod-3.23.5.tgz#c7b7617d017d4a2f21852f533258d26a9a5ae09f"
+  integrity sha512-fkwiq0VIQTksNNA131rDOsVJcns0pfVUjHzLrNBiF/O/Xxb5lQyEXkhZWcJ7npWsYlvs+h0jFWXXy4X46Em1JA==
